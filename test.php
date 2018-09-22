@@ -1,4 +1,4 @@
-ww<?
+wwww<?
 // $dt = date("Y-m-d H:i:s");
 // include_once "includes/function_send.php";
 //
