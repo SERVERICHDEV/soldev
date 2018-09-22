@@ -9,11 +9,8 @@
 	 */
 	// The commands
 	$commands = array(
-		'clear', 
 		'echo $PWD',
 		'whoami',
-		'git --version',
-		'ls -l',
 		'git reset --hard HEAD',
 		'git pull',
 		'git status',
