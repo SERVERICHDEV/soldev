@@ -16,6 +16,5 @@ $dt
 $git_version
 $git_status
 
-
 $git_pull");
 ?>
