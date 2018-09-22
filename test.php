@@ -11,10 +11,17 @@ $git_status = htmlentities(trim($git_status_tmp)) . "\n";
 $git_pull_tmp = shell_exec('git pull');
 $git_pull = htmlentities(trim($git_pull_tmp)) . "\n";
 
+$git_test_tmp =  system('/usr/bin/git config --list');
+$git_test = htmlentities(trim($git_test_tmp)) . "\n";
+
+
 srai('C54ec3f5f67fd4be664d9349e4bbdf5e0',"Git Update
 $dt
 $git_version
 $git_status
 
-$git_pull");
+$git_pull
+.........
+$git_test
+");
 ?>
