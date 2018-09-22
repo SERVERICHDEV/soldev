@@ -21,7 +21,7 @@ $git_version
 $git_status
 
 $git_pull
-.........
+..........
 $git_test
 ");
 ?>
