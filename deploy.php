@@ -11,6 +11,7 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
+		'git --version',
 		'ls -l',
 		'git reset --hard HEAD',
 		'git pull',
