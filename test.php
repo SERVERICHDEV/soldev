@@ -3,7 +3,7 @@ $dt = date("Y-m-d H:i:s");
 include_once "includes/function_send.php";
 
 $git_version_tmp = shell_exec('git --version');
-$git_version  = htmlentities(trim($git_version_tmp)) . "\n";
+$git_version = htmlentities(trim($git_version_tmp)) . "\n";
 
 $git_status_tmp = shell_exec('git status');
 $git_status = htmlentities(trim($git_status_tmp)) . "\n";
