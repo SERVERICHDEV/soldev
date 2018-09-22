@@ -9,7 +9,7 @@
 	 */
 	// The commands
 	$commands = array(
-		'clear',
+		'clear', 
 		'echo $PWD',
 		'whoami',
 		'git --version',
