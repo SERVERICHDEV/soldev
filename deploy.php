@@ -15,10 +15,10 @@ $git_pull_tmp =  system('/usr/bin/git pull');
 $git_pull = htmlentities(trim($git_pull_tmp)) . "\n";
 
 $git_log_tmp =  system('/usr/bin/git log -1');
-$git_log = htmlentities(trim($git_log_tmp)) . "\n";
+$git_log = trim($git_log_tmp) . "\n";
 
 
-srai('C54ec3f5f67fd4be664d9349e4bbdf5e0',"Git Update
+srai('C37244567dd2c083720acc025624b5455',"Git Update
 $dt on $git_version
 ==================
 $git_status
